@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>body{
+    font-size: 10px;
+}
+table {
+    border: 0px solid ;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid ;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+.full_empty {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.about {
+    width: 40%;
+    font-style: italic;
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+    border: 0px solid;
+}
+.top-header {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 15px;
+    border: 0px solid;
+}
+.name{
+	text-align: left;
+}
+.logo{
+	border: 0px solid ;
+}
+.header_line{
+	background-color: #D4A190;
+	width: 100%;
+}
+.header {
+    background-color: #D4A190;
+    width: 100%;
+}
+.total {
+	font-weight: bold;
+	background-color: #D4A190;
+}
+.total_per_person_text {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    background-color: #D4A190;
+}
+.total_per_person_number {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    background-color: #D4A190;
+}
+.total_empty {
+    border: 0px solid;
+    border-bottom: 1px solid white;
+}
+
+@media print {
+body {-webkit-print-color-adjust: exact;}
+}
+</style>
+    <title>Restaurant manager report</title>
+  </head>
+  <body style="padding: 30px;">
+    <table style="width:100%">
+      <tr>
+        <td class="about">Замовник:b</td>
+        <td colspan="5" class="logo" rowspan="7">
+          <img alt="Vine e Cucina restaurant" src="C:\Users\Max\Documents\GitHub\RestaurantManager\images\logo_2.jpg" />
+        </td>
+      </tr>
+      <tr>
+        <td class="about">Менеджер: b</td>
+      </tr>
+      <tr>
+        <td class="about">Місце проведення: 2</td>
+      </tr>
+      <tr>
+        <td class="about">Дата: 27.08.2016</td>
+      </tr>
+      <tr>
+        <td class="about">Вид заходу: b</td>
+      </tr>
+      <tr>
+        <td class="about">Час: 2</td>
+      </tr>
+      <tr>
+        <td class="about">Кількість персон: 2</td>
+      </tr>
+      <tr>
+        <td colspan="6" class="top-header">Ми щиро вдячні Вам, що обрали саме нас!</td>
+      </tr>
+      <tr>
+        <td colspan="6" height="50px" class="top-header">Керуючись Вашими пріорітетами та вподобаннями, ми підготували данну пропозицію.</td>
+      </tr>
+      <tr class="header">
+        <th width="40%">Назва</th>
+        <th width="5%">Вихід</th>
+        <th width="5%">Кількість</th>
+        <th width="20%">Коментар</th>
+        <th width="15%">Ціна, грн</th>
+        <th width="15%">Сума, грн</th>
+      </tr>
+      <tr class="header_line">
+        <th>Устриці</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+      <tr class="order_line">
+        <td class="name">Жилардо</td>
+        <td>1 шт.</td>
+        <td>20</td>
+        <td>говно</td>
+        <td>155.00</td>
+        <td>3100.00</td>
+      </tr>
+      <tr>
+        <td class="total">Загальна сума без обслуговування:</td>
+        <td class="total"></td>
+        <td class="total"></td>
+        <td class="total"></td>
+        <td class="total"></td>
+        <td class="total">3100.00</td>
+      </tr>
+      <tr>
+        <td class="total">Обслуговування 10%:</td>
+        <td class="total"></td>
+        <td class="total"></td>
+        <td class="total"></td>
+        <td class="total"></td>
+        <td class="total">310.00</td>
+      </tr>
+      <tr>
+        <td class="total">Загальна сума:</td>
+        <td class="total"></td>
+        <td class="total"></td>
+        <td class="total"></td>
+        <td class="total"></td>
+        <td class="total">3410.00</td>
+      </tr>
+      <tr>
+        <td class="total">Середня вага на особу</td>
+        <td class="total"></td>
+        <td class="total"></td>
+        <td class="total"></td>
+        <td class="total"></td>
+        <td class="total">0.00 г</td>
+      </tr>
+      <tr>
+        <td class="total_per_person_text">Середній рахунок на одну особу</td>
+        <td class="total_empty"></td>
+        <td class="total_empty"></td>
+        <td class="total_empty"></td>
+        <td class="total_empty"></td>
+        <td class="total_per_person_number">1705.00</td>
+      </tr>
+    </table>
+  </body>
+</html>

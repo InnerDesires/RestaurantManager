@@ -1,0 +1,67 @@
+body{
+    font-size: 10px;
+}
+table {
+    border: 0px solid ;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid ;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+.full_empty {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.about {
+    width: 40%;
+    font-style: italic;
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+    border: 0px solid;
+}
+.top-header {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 15px;
+    border: 0px solid;
+}
+.name{
+	text-align: left;
+}
+.logo{
+	border: 0px solid ;
+}
+.header_line{
+	background-color: #D4A190;
+	width: 100%;
+}
+.header {
+    background-color: #D4A190;
+    width: 100%;
+}
+.total {
+	font-weight: bold;
+	background-color: #D4A190;
+}
+.total_per_person_text {
+    font-weight: bold;
+    text-align: center;
+    background-color: #D4A190;
+}
+.total_per_person_number {
+    font-weight: bold;
+    text-align: center;
+    background-color: #D4A190;
+}
+.total_empty {
+    border: 0px solid;
+    border-bottom: 1px solid white;
+}
+
+@media print {
+body {-webkit-print-color-adjust: exact;}
+}
