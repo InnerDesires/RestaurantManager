@@ -16,9 +16,4 @@
 <li>Make a link to [app.exe] from [dist] directory wherever you want and use our program!</li>
 </ol>
 
-<h3>For troubleshooting notifications, please, contact us at:</h3>
-<ol>
-<li><a href="vk.com/diferenzial13">VKontakte</a> - Maxim Honchar</li>
-<li><a href="facebook.com/diferenzial13">Facebook</a> - Maxim Honchar</li>
-<li><a href="vk.com/what_did_you_say_about_my_mom">VKontakte</a> - Vladislav Tertyshnyi</li>
-</ol>
+
